@@ -1,5 +1,13 @@
-alert("My fist javascript file");
+// alert("My fist javascript file");
 
 function myFunction(){
-	alert("After the page is loaded");
+	alert("Something has been done!");
+}
+
+function buttonFunction(){
+	alert("button is pressed by event listener");
+}
+
+function inputFunction(){
+	alert("Input function run");
 }
