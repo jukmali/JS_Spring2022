@@ -1,0 +1,10 @@
+CACHE MANIFEST
+/theme.css
+/logo.gif
+/myJavascript.js
+
+NETWORK:
+login.asp
+
+FALLBACK:
+/html/ /offline.html
