@@ -473,7 +473,7 @@
                 out += '<td>' + 'Temperature: '+ data.main.temp + '</td>';
                 out += '<td>' + 'Clouds: '+ data.weather[0].description + '</td>';
                 out += '<td>' + 'Humidity: '+ data.main.humidity + '</td>';
-                out += '<td>' + 'Icon: ' + data.weather[0].icon + '</td>';
+                out += '<td>' + 'Icon: ' + '<img src="https://openweathermap.org/img/wn/'+data.weather[0].icon+'@2x.png">';
                 
                 out += '</tr>';
                 
